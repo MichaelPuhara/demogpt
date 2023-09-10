@@ -28,7 +28,7 @@ def maoriTranslator(maori_word):
     result = chain.run(maori_word=maori_word)
     return result
 
-maori_word = st.text_input("Disclaimer:
+maori_word = st.text_input("Disclaimer
 
 This Maori translation bot aims to assist with translations, but it may not always provide entirely accurate results. Translation accuracy can vary based on context and language nuances. For important or precise translations, consult with a proficient Maori speaker or language expert. The bot's translations should be used as a helpful reference but not solely relied upon. Use it with discretion.
 
