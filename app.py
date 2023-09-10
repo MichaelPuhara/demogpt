@@ -30,10 +30,10 @@ def maoriTranslator(maori_word):
 
 maori_word = st.text_input("""Disclaimer:
 
-This Maori translation bot aims to assist with translations, but it may not always provide entirely accurate results. Translation accuracy can vary based on context and language nuances. For important or precise translations, consult with a proficient Maori speaker or language expert. The bot's translations should be used as a helpful reference but not solely relied upon. Use it with discretion.
+This Māori translation bot aims to assist with translations, but it may not always provide entirely accurate results. Translation accuracy can vary based on context and language nuances. For important or precise translations, consult with a proficient Maori speaker or language expert. The bot's translations should be used as a helpful reference but not solely relied upon. Use it with discretion.
 
 
-Enter the Maori word or phrase you want to learn:""")
+Enter the Māori word or phrase you want to learn:""")
 response = ""
 
 if st.button("Submit"):
